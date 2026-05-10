@@ -1,0 +1,1533 @@
+{
+  "login": "Valden",
+  "graphState": [
+    {
+      "id": "f664c192-3c09-5ce5-8b89-f3c756af188f",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Обучение с учителем"
+        }
+      },
+      "edges": [
+        "793eb90f-4e61-5b2f-884e-57cc9a68cd41",
+        "63671386-e841-5bd9-8e7a-77b612330fa2",
+        "0cfbd459-1f2d-56d7-88b1-ca57d6548b62",
+        "156abff4-0937-5495-abca-7ef54ccf99e8",
+        "2fb11844-8f86-5c13-bbc7-ecf10a2b246b"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "1d2f2f05-fdf8-5829-890b-e4827e3c7a13",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Обучающие примеры"
+        }
+      },
+      "edges": [
+        "793eb90f-4e61-5b2f-884e-57cc9a68cd41",
+        "018ea120-1e0c-5f63-8b8c-e0aca1d6a495",
+        "ac79a7d7-d10d-5ee5-9a29-ffe2486c4c83",
+        "87cd20d6-0907-5f29-a5c0-abef5ae41751",
+        "b9ce5c60-7c2f-5884-9df6-bb1efe3ce196"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "722e6795-fd49-5262-89bf-7b612c3daf1d",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Объект"
+        }
+      },
+      "edges": [
+        "018ea120-1e0c-5f63-8b8c-e0aca1d6a495",
+        "58dbb01b-2f9a-5a1c-bfab-97df577a0ba1"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "6e119460-540f-5ece-aad3-607aa06cbd24",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Признаки"
+        }
+      },
+      "edges": [
+        "58dbb01b-2f9a-5a1c-bfab-97df577a0ba1",
+        "64517039-58a6-5c76-9ed3-104fb54760e2",
+        "cbab0b56-3940-5c1e-9e8e-a3f0bd3c0661",
+        "a20ac509-1d04-5b41-9762-badebad276fb",
+        "a5a529c8-ba3b-511d-b949-880f06ff89a6"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "24b0c6e5-0b06-5168-8883-17b1bbefbbfe",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Числовые признаки"
+        }
+      },
+      "edges": [
+        "64517039-58a6-5c76-9ed3-104fb54760e2"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "f07037d7-67d8-52b6-9802-c8a5dea8c737",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Категориальные признаки"
+        }
+      },
+      "edges": [
+        "cbab0b56-3940-5c1e-9e8e-a3f0bd3c0661"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "ea606fbe-1059-5818-9b73-4aa8364cf541",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Текстовые признаки"
+        }
+      },
+      "edges": [
+        "a20ac509-1d04-5b41-9762-badebad276fb"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "e0f5f675-dd64-55f1-aa1d-b15a0cd9bd08",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Вектор признаков"
+        }
+      },
+      "edges": [
+        "a5a529c8-ba3b-511d-b949-880f06ff89a6"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "ff4e1f06-fdd1-5592-9654-c45f2962487e",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Метка / целевая переменная"
+        }
+      },
+      "edges": [
+        "ac79a7d7-d10d-5ee5-9a29-ffe2486c4c83",
+        "5e087100-6265-57d6-9e0e-340901fc6b6b",
+        "49645513-a153-50c0-9bfd-9d674d712d5c"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "d54cb48b-ddb3-5075-b54c-e51c34b1554e",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Обучающая выборка"
+        }
+      },
+      "edges": [
+        "87cd20d6-0907-5f29-a5c0-abef5ae41751",
+        "cdf06aa9-197b-5259-ae5e-c7e4078c108e",
+        "abfa55e9-660a-58d3-80a2-6cc58a9ffb38"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "3a257596-2cd4-5b19-893e-be43029bfb2d",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Тестовая выборка"
+        }
+      },
+      "edges": [
+        "b9ce5c60-7c2f-5884-9df6-bb1efe3ce196",
+        "2aa52039-5e6f-5c1a-87d5-85cc5592e9f3",
+        "7f35b3a5-1794-5dcc-b6ae-d6aed58a516d"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "6cf821a4-69d3-5a63-9094-6a93ad5c101a",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Кросс-валидация"
+        }
+      },
+      "edges": [
+        "abfa55e9-660a-58d3-80a2-6cc58a9ffb38",
+        "7f35b3a5-1794-5dcc-b6ae-d6aed58a516d"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "6f9305f0-9f4a-530e-8890-fb24ab7982a5",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Модель"
+        }
+      },
+      "edges": [
+        "63671386-e841-5bd9-8e7a-77b612330fa2",
+        "1b4feffa-da33-52f2-bfd9-d9ccf3b4687b",
+        "cdf06aa9-197b-5259-ae5e-c7e4078c108e",
+        "2aa52039-5e6f-5c1a-87d5-85cc5592e9f3",
+        "beb88a09-d5be-5287-b70c-73998d33c23c",
+        "e9400a26-8153-5012-bbd9-d450ef6d390f",
+        "458e4c20-8fe4-5949-b548-121cfdbb9940",
+        "b04b5b47-95fe-534b-8f07-e7c9b00779e7"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "4dbf50c6-5608-58d4-a90d-c5ed143ed1ed",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Предсказание"
+        }
+      },
+      "edges": [
+        "1b4feffa-da33-52f2-bfd9-d9ccf3b4687b",
+        "6643c9b2-8c3e-5f3a-9f48-ab9224a24da1"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "95833727-db40-5504-b35c-a5cfcfcce5cc",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Классификация"
+        }
+      },
+      "edges": [
+        "0cfbd459-1f2d-56d7-88b1-ca57d6548b62",
+        "ade188fc-6527-5a32-8826-b717bbc85af1",
+        "60ddaf03-0c30-5e36-ba37-f11cc7237903",
+        "5e087100-6265-57d6-9e0e-340901fc6b6b"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "cf357ee4-bfda-5d85-b230-61435eb5d5e5",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Бинарная классификация"
+        }
+      },
+      "edges": [
+        "ade188fc-6527-5a32-8826-b717bbc85af1"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "c46a09ff-d707-5c13-86fc-787e1fb36567",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Многоклассовая классификация"
+        }
+      },
+      "edges": [
+        "60ddaf03-0c30-5e36-ba37-f11cc7237903"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "f8bcb183-f372-5a8c-992e-a3d0c9eb8776",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Регрессия"
+        }
+      },
+      "edges": [
+        "156abff4-0937-5495-abca-7ef54ccf99e8",
+        "49645513-a153-50c0-9bfd-9d674d712d5c"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "6163d869-67aa-541c-9e47-40c7050b3a43",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Алгоритмы"
+        }
+      },
+      "edges": [
+        "2fb11844-8f86-5c13-bbc7-ecf10a2b246b",
+        "2f594760-81cb-5296-845e-098e74b3bf84",
+        "e952804b-15db-5f38-bd75-1ef0926801fc",
+        "692151e9-7d16-5632-a32a-9c6ac14953ea",
+        "bdbfa0b2-f271-50e1-aefd-179baf91b612",
+        "fd5a3693-7ef2-504f-b8e0-061757e80911",
+        "9c7c3cdb-9326-5b58-b8f1-e183e775782c",
+        "072f033f-50ae-5670-ad98-b7efaa7976f8",
+        "f0ee7cd1-c117-59b4-8d58-0a2b2a21ba81",
+        "eca055b3-6d3e-539e-9cec-dd896c5eed94"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "73145198-21d7-5c8c-ace4-535858122d05",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Линейная регрессия"
+        }
+      },
+      "edges": [
+        "2f594760-81cb-5296-845e-098e74b3bf84"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "c90a87ec-6234-5529-add9-45c620d8c52e",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Логистическая регрессия"
+        }
+      },
+      "edges": [
+        "e952804b-15db-5f38-bd75-1ef0926801fc"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "b84dd3fb-d926-5041-8e4c-3d2efd1a0e1d",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Метод k ближайших соседей"
+        }
+      },
+      "edges": [
+        "692151e9-7d16-5632-a32a-9c6ac14953ea"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "84636c64-ee17-5e59-a055-cfd011d79392",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Решающие деревья"
+        }
+      },
+      "edges": [
+        "bdbfa0b2-f271-50e1-aefd-179baf91b612"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "c649f544-beea-5aa8-9bad-ef11d213d966",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Случайный лес"
+        }
+      },
+      "edges": [
+        "fd5a3693-7ef2-504f-b8e0-061757e80911"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "4630c7a7-d362-56ca-b056-55886acfd995",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Метод опорных векторов"
+        }
+      },
+      "edges": [
+        "9c7c3cdb-9326-5b58-b8f1-e183e775782c"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "b9801a0e-bd94-572d-9391-ae2fabf025cd",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Нейронные сети"
+        }
+      },
+      "edges": [
+        "072f033f-50ae-5670-ad98-b7efaa7976f8"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "0dad4a67-f3b3-5a69-b9ec-2d3a9edce65c",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Параметры модели"
+        }
+      },
+      "edges": [
+        "f0ee7cd1-c117-59b4-8d58-0a2b2a21ba81"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "262fc79f-0f91-5a74-bfac-fdbcc227af42",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Гиперпараметры"
+        }
+      },
+      "edges": [
+        "eca055b3-6d3e-539e-9cec-dd896c5eed94"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "a4774cc1-1d67-5cf5-8233-dfdb39fe9495",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Функция потерь"
+        }
+      },
+      "edges": [
+        "beb88a09-d5be-5287-b70c-73998d33c23c",
+        "6643c9b2-8c3e-5f3a-9f48-ab9224a24da1",
+        "30ee781d-2705-531a-a06a-befcdf4429c2",
+        "7fb24641-2d96-5935-911e-a6e1b2f7cba6"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "23c72430-6e53-5a66-b852-05e571c1da7d",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Среднеквадратичная ошибка"
+        }
+      },
+      "edges": [
+        "30ee781d-2705-531a-a06a-befcdf4429c2"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "243be3c1-14a8-5720-9d31-1a4978fff502",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Кросс-энтропия"
+        }
+      },
+      "edges": [
+        "7fb24641-2d96-5935-911e-a6e1b2f7cba6"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "56b89a5e-ced0-55dc-b60f-afbab9bd3a7a",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Метрики качества"
+        }
+      },
+      "edges": [
+        "e9400a26-8153-5012-bbd9-d450ef6d390f",
+        "0af2f267-5b79-5710-9763-1bcc50b83295",
+        "95f9a0ae-4389-5887-8172-e86138770e4a"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "4813123e-9fbe-5e46-898a-b50ee1fe840d",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Accuracy, precision, recall, F1"
+        }
+      },
+      "edges": [
+        "0af2f267-5b79-5710-9763-1bcc50b83295"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "6218b5b5-2c73-5b26-afdc-d53f44596993",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "MAE, MSE, R²"
+        }
+      },
+      "edges": [
+        "95f9a0ae-4389-5887-8172-e86138770e4a"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "9cdee133-dee6-5529-9fdc-4f7f8c824954",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Переобучение"
+        }
+      },
+      "edges": [
+        "e51e8378-b5cb-599e-b46c-c956cc5905c5",
+        "02f0d145-fd36-5f86-86df-e0d11a980b28",
+        "d7370901-3cbb-5343-9079-7b801207565f",
+        "094088a0-2cb5-5880-98d4-ce380c5befeb",
+        "79c7dd30-a33c-5bf2-b212-98b7d4515053"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "c613022d-7e4e-5767-b33f-ab456e3992c4",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Недообучение"
+        }
+      },
+      "edges": [
+        "62569f0f-2db6-5e54-a8ad-0b39ce548acd",
+        "84fc7786-15df-5ee6-a64d-8518b88bbc9a"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "01d9970b-3a20-5ff8-9194-1473cb3945f2",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Регуляризация"
+        }
+      },
+      "edges": [
+        "d7370901-3cbb-5343-9079-7b801207565f"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "9c4b7b16-fe07-5960-be70-09800c516749",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Увеличение объема данных"
+        }
+      },
+      "edges": [
+        "094088a0-2cb5-5880-98d4-ce380c5befeb"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "354c72b4-45fe-513d-8916-18313c4feaba",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Упрощение модели"
+        }
+      },
+      "edges": [
+        "79c7dd30-a33c-5bf2-b212-98b7d4515053"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "2e19c208-71cc-528e-afba-be7ccecd27d3",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Качество на обучении"
+        }
+      },
+      "edges": [
+        "458e4c20-8fe4-5949-b548-121cfdbb9940",
+        "e51e8378-b5cb-599e-b46c-c956cc5905c5",
+        "62569f0f-2db6-5e54-a8ad-0b39ce548acd"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "6cdd5859-1946-51e1-bdd2-9ffae606231b",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Качество на тесте"
+        }
+      },
+      "edges": [
+        "b04b5b47-95fe-534b-8f07-e7c9b00779e7",
+        "02f0d145-fd36-5f86-86df-e0d11a980b28",
+        "84fc7786-15df-5ee6-a64d-8518b88bbc9a"
+      ],
+      "children": [],
+      "parents": []
+    },
+    {
+      "id": "793eb90f-4e61-5b2f-884e-57cc9a68cd41",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "использует"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "f664c192-3c09-5ce5-8b89-f3c756af188f",
+      "target": "1d2f2f05-fdf8-5829-890b-e4827e3c7a13",
+      "directed": true
+    },
+    {
+      "id": "018ea120-1e0c-5f63-8b8c-e0aca1d6a495",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "содержат"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "1d2f2f05-fdf8-5829-890b-e4827e3c7a13",
+      "target": "722e6795-fd49-5262-89bf-7b612c3daf1d",
+      "directed": true
+    },
+    {
+      "id": "58dbb01b-2f9a-5a1c-bfab-97df577a0ba1",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "описывается через"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "722e6795-fd49-5262-89bf-7b612c3daf1d",
+      "target": "6e119460-540f-5ece-aad3-607aa06cbd24",
+      "directed": true
+    },
+    {
+      "id": "64517039-58a6-5c76-9ed3-104fb54760e2",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "могут быть"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6e119460-540f-5ece-aad3-607aa06cbd24",
+      "target": "24b0c6e5-0b06-5168-8883-17b1bbefbbfe",
+      "directed": true
+    },
+    {
+      "id": "cbab0b56-3940-5c1e-9e8e-a3f0bd3c0661",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "могут быть"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6e119460-540f-5ece-aad3-607aa06cbd24",
+      "target": "f07037d7-67d8-52b6-9802-c8a5dea8c737",
+      "directed": true
+    },
+    {
+      "id": "a20ac509-1d04-5b41-9762-badebad276fb",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "могут быть"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6e119460-540f-5ece-aad3-607aa06cbd24",
+      "target": "ea606fbe-1059-5818-9b73-4aa8364cf541",
+      "directed": true
+    },
+    {
+      "id": "a5a529c8-ba3b-511d-b949-880f06ff89a6",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "образуют"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6e119460-540f-5ece-aad3-607aa06cbd24",
+      "target": "e0f5f675-dd64-55f1-aa1d-b15a0cd9bd08",
+      "directed": true
+    },
+    {
+      "id": "ac79a7d7-d10d-5ee5-9a29-ffe2486c4c83",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "имеют правильный ответ"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "1d2f2f05-fdf8-5829-890b-e4827e3c7a13",
+      "target": "ff4e1f06-fdd1-5592-9654-c45f2962487e",
+      "directed": true
+    },
+    {
+      "id": "63671386-e841-5bd9-8e7a-77b612330fa2",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "строит"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "f664c192-3c09-5ce5-8b89-f3c756af188f",
+      "target": "6f9305f0-9f4a-530e-8890-fb24ab7982a5",
+      "directed": true
+    },
+    {
+      "id": "1b4feffa-da33-52f2-bfd9-d9ccf3b4687b",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "делает"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6f9305f0-9f4a-530e-8890-fb24ab7982a5",
+      "target": "4dbf50c6-5608-58d4-a90d-c5ed143ed1ed",
+      "directed": true
+    },
+    {
+      "id": "87cd20d6-0907-5f29-a5c0-abef5ae41751",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "делятся на"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "1d2f2f05-fdf8-5829-890b-e4827e3c7a13",
+      "target": "d54cb48b-ddb3-5075-b54c-e51c34b1554e",
+      "directed": true
+    },
+    {
+      "id": "b9ce5c60-7c2f-5884-9df6-bb1efe3ce196",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "делятся на"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "1d2f2f05-fdf8-5829-890b-e4827e3c7a13",
+      "target": "3a257596-2cd4-5b19-893e-be43029bfb2d",
+      "directed": true
+    },
+    {
+      "id": "cdf06aa9-197b-5259-ae5e-c7e4078c108e",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "настраивается на"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6f9305f0-9f4a-530e-8890-fb24ab7982a5",
+      "target": "d54cb48b-ddb3-5075-b54c-e51c34b1554e",
+      "directed": true
+    },
+    {
+      "id": "2aa52039-5e6f-5c1a-87d5-85cc5592e9f3",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "оценивается на"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6f9305f0-9f4a-530e-8890-fb24ab7982a5",
+      "target": "3a257596-2cd4-5b19-893e-be43029bfb2d",
+      "directed": true
+    },
+    {
+      "id": "abfa55e9-660a-58d3-80a2-6cc58a9ffb38",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "многократно разбивает данные на"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6cf821a4-69d3-5a63-9094-6a93ad5c101a",
+      "target": "d54cb48b-ddb3-5075-b54c-e51c34b1554e",
+      "directed": true
+    },
+    {
+      "id": "7f35b3a5-1794-5dcc-b6ae-d6aed58a516d",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "использует проверочную часть как"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6cf821a4-69d3-5a63-9094-6a93ad5c101a",
+      "target": "3a257596-2cd4-5b19-893e-be43029bfb2d",
+      "directed": true
+    },
+    {
+      "id": "0cfbd459-1f2d-56d7-88b1-ca57d6548b62",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "включает задачу"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "f664c192-3c09-5ce5-8b89-f3c756af188f",
+      "target": "95833727-db40-5504-b35c-a5cfcfcce5cc",
+      "directed": true
+    },
+    {
+      "id": "ade188fc-6527-5a32-8826-b717bbc85af1",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "бывает"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "95833727-db40-5504-b35c-a5cfcfcce5cc",
+      "target": "cf357ee4-bfda-5d85-b230-61435eb5d5e5",
+      "directed": true
+    },
+    {
+      "id": "60ddaf03-0c30-5e36-ba37-f11cc7237903",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "бывает"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "95833727-db40-5504-b35c-a5cfcfcce5cc",
+      "target": "c46a09ff-d707-5c13-86fc-787e1fb36567",
+      "directed": true
+    },
+    {
+      "id": "156abff4-0937-5495-abca-7ef54ccf99e8",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "включает задачу"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "f664c192-3c09-5ce5-8b89-f3c756af188f",
+      "target": "f8bcb183-f372-5a8c-992e-a3d0c9eb8776",
+      "directed": true
+    },
+    {
+      "id": "5e087100-6265-57d6-9e0e-340901fc6b6b",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "использует классы как"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "95833727-db40-5504-b35c-a5cfcfcce5cc",
+      "target": "ff4e1f06-fdd1-5592-9654-c45f2962487e",
+      "directed": true
+    },
+    {
+      "id": "49645513-a153-50c0-9bfd-9d674d712d5c",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "предсказывает непрерывную"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "f8bcb183-f372-5a8c-992e-a3d0c9eb8776",
+      "target": "ff4e1f06-fdd1-5592-9654-c45f2962487e",
+      "directed": true
+    },
+    {
+      "id": "2fb11844-8f86-5c13-bbc7-ecf10a2b246b",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "решается с помощью"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "f664c192-3c09-5ce5-8b89-f3c756af188f",
+      "target": "6163d869-67aa-541c-9e47-40c7050b3a43",
+      "directed": true
+    },
+    {
+      "id": "2f594760-81cb-5296-845e-098e74b3bf84",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "включают"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6163d869-67aa-541c-9e47-40c7050b3a43",
+      "target": "73145198-21d7-5c8c-ace4-535858122d05",
+      "directed": true
+    },
+    {
+      "id": "e952804b-15db-5f38-bd75-1ef0926801fc",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "включают"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6163d869-67aa-541c-9e47-40c7050b3a43",
+      "target": "c90a87ec-6234-5529-add9-45c620d8c52e",
+      "directed": true
+    },
+    {
+      "id": "692151e9-7d16-5632-a32a-9c6ac14953ea",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "включают"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6163d869-67aa-541c-9e47-40c7050b3a43",
+      "target": "b84dd3fb-d926-5041-8e4c-3d2efd1a0e1d",
+      "directed": true
+    },
+    {
+      "id": "bdbfa0b2-f271-50e1-aefd-179baf91b612",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "включают"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6163d869-67aa-541c-9e47-40c7050b3a43",
+      "target": "84636c64-ee17-5e59-a055-cfd011d79392",
+      "directed": true
+    },
+    {
+      "id": "fd5a3693-7ef2-504f-b8e0-061757e80911",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "включают"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6163d869-67aa-541c-9e47-40c7050b3a43",
+      "target": "c649f544-beea-5aa8-9bad-ef11d213d966",
+      "directed": true
+    },
+    {
+      "id": "9c7c3cdb-9326-5b58-b8f1-e183e775782c",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "включают"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6163d869-67aa-541c-9e47-40c7050b3a43",
+      "target": "4630c7a7-d362-56ca-b056-55886acfd995",
+      "directed": true
+    },
+    {
+      "id": "072f033f-50ae-5670-ad98-b7efaa7976f8",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "включают для сложных задач"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6163d869-67aa-541c-9e47-40c7050b3a43",
+      "target": "b9801a0e-bd94-572d-9391-ae2fabf025cd",
+      "directed": true
+    },
+    {
+      "id": "f0ee7cd1-c117-59b4-8d58-0a2b2a21ba81",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "настраивают во время обучения"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6163d869-67aa-541c-9e47-40c7050b3a43",
+      "target": "0dad4a67-f3b3-5a69-b9ec-2d3a9edce65c",
+      "directed": true
+    },
+    {
+      "id": "eca055b3-6d3e-539e-9cec-dd896c5eed94",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "имеют задаваемые заранее"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6163d869-67aa-541c-9e47-40c7050b3a43",
+      "target": "262fc79f-0f91-5a74-bfac-fdbcc227af42",
+      "directed": true
+    },
+    {
+      "id": "beb88a09-d5be-5287-b70c-73998d33c23c",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "минимизирует"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6f9305f0-9f4a-530e-8890-fb24ab7982a5",
+      "target": "a4774cc1-1d67-5cf5-8233-dfdb39fe9495",
+      "directed": true
+    },
+    {
+      "id": "6643c9b2-8c3e-5f3a-9f48-ab9224a24da1",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "сравнивает с истинным ответом"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "a4774cc1-1d67-5cf5-8233-dfdb39fe9495",
+      "target": "4dbf50c6-5608-58d4-a90d-c5ed143ed1ed",
+      "directed": true
+    },
+    {
+      "id": "30ee781d-2705-531a-a06a-befcdf4429c2",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "пример для регрессии"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "a4774cc1-1d67-5cf5-8233-dfdb39fe9495",
+      "target": "23c72430-6e53-5a66-b852-05e571c1da7d",
+      "directed": true
+    },
+    {
+      "id": "7fb24641-2d96-5935-911e-a6e1b2f7cba6",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "пример для классификации"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "a4774cc1-1d67-5cf5-8233-dfdb39fe9495",
+      "target": "243be3c1-14a8-5720-9d31-1a4978fff502",
+      "directed": true
+    },
+    {
+      "id": "e9400a26-8153-5012-bbd9-d450ef6d390f",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "оценивается с помощью"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6f9305f0-9f4a-530e-8890-fb24ab7982a5",
+      "target": "56b89a5e-ced0-55dc-b60f-afbab9bd3a7a",
+      "directed": true
+    },
+    {
+      "id": "0af2f267-5b79-5710-9763-1bcc50b83295",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "в классификации используют"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "56b89a5e-ced0-55dc-b60f-afbab9bd3a7a",
+      "target": "4813123e-9fbe-5e46-898a-b50ee1fe840d",
+      "directed": true
+    },
+    {
+      "id": "95f9a0ae-4389-5887-8172-e86138770e4a",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "в регрессии используют"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "56b89a5e-ced0-55dc-b60f-afbab9bd3a7a",
+      "target": "6218b5b5-2c73-5b26-afdc-d53f44596993",
+      "directed": true
+    },
+    {
+      "id": "458e4c20-8fe4-5949-b548-121cfdbb9940",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "имеет"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6f9305f0-9f4a-530e-8890-fb24ab7982a5",
+      "target": "2e19c208-71cc-528e-afba-be7ccecd27d3",
+      "directed": true
+    },
+    {
+      "id": "b04b5b47-95fe-534b-8f07-e7c9b00779e7",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "имеет"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6f9305f0-9f4a-530e-8890-fb24ab7982a5",
+      "target": "6cdd5859-1946-51e1-bdd2-9ffae606231b",
+      "directed": true
+    },
+    {
+      "id": "e51e8378-b5cb-599e-b46c-c956cc5905c5",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "высокое при"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "2e19c208-71cc-528e-afba-be7ccecd27d3",
+      "target": "9cdee133-dee6-5529-9fdc-4f7f8c824954",
+      "directed": true
+    },
+    {
+      "id": "02f0d145-fd36-5f86-86df-e0d11a980b28",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "низкое при"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6cdd5859-1946-51e1-bdd2-9ffae606231b",
+      "target": "9cdee133-dee6-5529-9fdc-4f7f8c824954",
+      "directed": true
+    },
+    {
+      "id": "62569f0f-2db6-5e54-a8ad-0b39ce548acd",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "низкое при"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "2e19c208-71cc-528e-afba-be7ccecd27d3",
+      "target": "c613022d-7e4e-5767-b33f-ab456e3992c4",
+      "directed": true
+    },
+    {
+      "id": "84fc7786-15df-5ee6-a64d-8518b88bbc9a",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "низкое при"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6cdd5859-1946-51e1-bdd2-9ffae606231b",
+      "target": "c613022d-7e4e-5767-b33f-ab456e3992c4",
+      "directed": true
+    },
+    {
+      "id": "d7370901-3cbb-5343-9079-7b801207565f",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "снижается через"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "9cdee133-dee6-5529-9fdc-4f7f8c824954",
+      "target": "01d9970b-3a20-5ff8-9194-1473cb3945f2",
+      "directed": true
+    },
+    {
+      "id": "094088a0-2cb5-5880-98d4-ce380c5befeb",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "снижается через"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "9cdee133-dee6-5529-9fdc-4f7f8c824954",
+      "target": "9c4b7b16-fe07-5960-be70-09800c516749",
+      "directed": true
+    },
+    {
+      "id": "79c7dd30-a33c-5bf2-b212-98b7d4515053",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "снижается через"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "9cdee133-dee6-5529-9fdc-4f7f8c824954",
+      "target": "354c72b4-45fe-513d-8916-18313c4feaba",
+      "directed": true
+    }
+  ],
+  "actionLog": []
+}
